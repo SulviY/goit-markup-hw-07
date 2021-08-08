@@ -60,7 +60,7 @@
   .contact__link {
     display: flex;
     align-items: center;
-    fill: $primary-text-color;
+    color: $primary-text-color;
 
     &:hover, &:focus {
       fill: $accent-color;
@@ -73,5 +73,6 @@
    
   .contact__icon {
     margin-right: 10px;
+    fill: $primary-text-color;
   }
   

@@ -1,1 +1,19 @@
-@import "./base/normalize"
+@import './utils/variables'; 
+@import './base/normalize';
+@import './components/common/common';
+@import './components/common/header';
+@import './components/common/footer';
+@import './components/common/socialMedia';
+@import './components/studio/hero';
+@import './components/studio/features';
+@import './components/studio/solutions';
+@import './components/studio/team';
+@import './components/common/socialMedia';
+@import './components/common/footerSocialMedia';
+@import './components/studio/clients';
+@import './components/common/footer';
+@import './components/studio/subscription';
+@import './components/portfolio/filter';
+@import './components/portfolio/projects';
+@import './components/studio/modal';
+

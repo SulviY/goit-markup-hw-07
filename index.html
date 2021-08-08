@@ -353,7 +353,7 @@
         </section>
     </main>
 
-    <!--footer-->
+    <!--FOOTER-->
     <footer class="footer">
         <div class="container footer__container">
             <div class="footer__contact">
@@ -378,7 +378,7 @@
                 </p>
                 <ul class="social-media">
                     <li class="list">
-                        <a href="#" class="social-media__link footer__link">
+                        <a href="#" class="social-media__link footer__social-media">
                             <svg class="social-media__icon">
                                 <use href="./images/icons.svg#icon-instagram">
                                 </use>
@@ -432,79 +432,77 @@
         </div>
     </footer>
 
+    <!-- MODAL WINDOW -->
     <div class="backdrop is-hidden" data-modal>
-        <div class="modal modal-relative">
-            <button class="button-close-modal" type="button" data-modal-close >
-                <svg class="button-close-modal-icon">
+        <div class="modal modal__relative">
+            <button class="modal__close-button" type="button" data-modal-close >
+                <svg class="close-button__icon">
                     <use href="./images/icons.svg#icon-close-button">
                     </use>
                 </svg>
             </button>
-            <form action="" class="form js-speaker-form">
-                <h3 class="form-title">
+            <form action="" class="js-speaker-form">
+                <h3 class="form__title">
                     Оставьте свои данные, мы вам перезвоним
                 </h3>
-                <label class="form-field">
-                    <div class="form-field-text">
+                <label class="form__field">
+                    <div class="form__text">
                         Имя
                     </div>
-                    <div class="input-relative">
-                        <input type="text" name="name" placeholder=" " class="form-input">
-                        <svg class="icon">
+                    <div class="input__relative">
+                        <input type="text" name="name" placeholder=" " class="form__input">
+                        <svg class="form__icon">
                             <use href="./images/icons.svg#icon-name"></use>
                         </svg>
                     </div>                
                 </label>
     
-                <label class="form-field">
-                    <div class="form-field-text">
+                <label class="form__field">
+                    <div class="form__text">
                         Телефон
                     </div>
-                    <div class="input-relative">
-                        <input type="tel" name="tel" placeholder=" " class="form-input">
-                        <svg class="icon">
+                    <div class="input__relative">
+                        <input type="tel" name="tel" placeholder=" " class="form__input">
+                        <svg class="form__icon">
                             <use href="./images/icons.svg#icon-tel"></use>
                         </svg>
                     </div>
                 </label>
     
-                <label class="form-field">
-                    <div class="form-field-text">
+                <label class="form__field">
+                    <div class="form__text">
                         Почта
                     </div>
-                    <div class="input-relative">
-                        <input type="email" name="email" placeholder=" " class="form-input">
-                        <svg class="icon">
+                    <div class="input__relative">
+                        <input type="email" name="email" placeholder=" " class="form__input">
+                        <svg class="form__icon">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
                     </div>
                 </label>
     
-                <label class="form-field">
-                    <div class="form-field-text">
+                <label class="form__field">
+                    <div class="form__text">
                         Комментарий
                     </div>
-                    <textarea name="comment" class="comment" placeholder="Введите текст"></textarea>    
+                    <textarea name="comment" class="form__comment" placeholder="Введите текст"></textarea>    
                 </label>
         
                 <div class="conditions">                
-                    <label class="checkbox-label">
-                        <input type="checkbox" name="conditions" value="conditions" class="checkbox">
-                        <svg class="checkbox-icon">
+                    <label class="checkbox__label">
+                        <input type="checkbox" name="conditions" value="conditions" class="checkbox__input">
+                        <svg class="checkbox__icon">
                             <use href="./images/icons.svg#icon-checked"></use>
                         </svg>
-                        <div class="checkbox-text">
-                            Соглашаюсь с рассылкой и принимаю <a href="#" class="conditions-link">Условия договора</a>
+                        <div class="checkbox__text">
+                            Соглашаюсь с рассылкой и принимаю <a href="#" class="conditions__link">Условия договора</a>
                         </div>
                     </label>
-                </div>
-                   
-                <button type="submit" class="send-btn">Отправить</button>
+                </div> 
+                <button type="submit" class="conditions__send-button">Отправить</button>
             </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
-
-
 </body>
 </html>
